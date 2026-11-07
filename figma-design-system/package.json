@@ -1,0 +1,10 @@
+{
+  "name": "northstar-figma-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Figma plugin that generates an atomic B2B design system with variables, light/dark modes, components and documentation.",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node build.js && node test/run.js"
+  }
+}

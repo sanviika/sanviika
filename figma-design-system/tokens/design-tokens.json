@@ -1,0 +1,1860 @@
+{
+  "$name": "Northstar",
+  "$version": "1.0.0",
+  "primitive": {
+    "neutral": {
+      "0": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#FCFCFD"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#F8F9FB"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#F1F3F7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#E4E7EE"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#D0D5DF"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#9AA3B5"
+      },
+      "450": {
+        "$type": "color",
+        "$value": "#858EA1"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#6B7489"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#4D5668"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#384052"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#232A39"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#161B26"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0C1018"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "#000000"
+      }
+    },
+    "brand": {
+      "50": {
+        "$type": "color",
+        "$value": "#EEF2FF"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E0E7FF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#C3CFFE"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#9DB0FC"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#7187F8"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#4F63F0"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#3A47E0"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#2F38C4"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#29309E"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#262E7D"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#171B49"
+      }
+    },
+    "green": {
+      "50": {
+        "$type": "color",
+        "$value": "#ECFDF3"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#D1FADF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#A6F4C5"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#6CE9A6"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#32D583"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#12B76A"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#039855"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#027A48"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#05603A"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#054F31"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#032B1A"
+      }
+    },
+    "amber": {
+      "50": {
+        "$type": "color",
+        "$value": "#FFFAEB"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FEF0C7"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FEDF89"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FEC84B"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#FDB022"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#F79009"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#DC6803"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#B54708"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#93370D"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#7A2E0E"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#4E1D09"
+      }
+    },
+    "red": {
+      "50": {
+        "$type": "color",
+        "$value": "#FEF3F2"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FEE4E2"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FECDCA"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FDA29B"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#F97066"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#F04438"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#D92D20"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#B42318"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#912018"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#7A271A"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#55160C"
+      }
+    },
+    "blue": {
+      "50": {
+        "$type": "color",
+        "$value": "#EFF8FF"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#D1E9FF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#B2DDFF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#84CAFF"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#53B1FD"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#2E90FA"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#1570EF"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#175CD3"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#1849A9"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#194185"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#102A56"
+      }
+    },
+    "teal": {
+      "300": {
+        "$type": "color",
+        "$value": "#5EEAD4"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#2DD4BF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#14B8A6"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#0D9488"
+      }
+    },
+    "violet": {
+      "300": {
+        "$type": "color",
+        "$value": "#D8B4FE"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#C084FC"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#A855F7"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#9333EA"
+      }
+    }
+  },
+  "color": {
+    "light": {
+      "bg": {
+        "canvas": {
+          "$type": "color",
+          "$value": "{primitive.neutral.50}",
+          "$description": "App/page background behind surfaces."
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Default container surface: cards, tables, inputs."
+        },
+        "surface-raised": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Floating surfaces: menus, popovers, modals, toasts."
+        },
+        "surface-sunken": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "Recessed areas: table headers, code blocks, wells."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "Hover state for neutral interactive rows & items."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{primitive.neutral.200}",
+          "$description": "Pressed state for neutral interactive items; progress tracks."
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{primitive.brand.50}",
+          "$description": "Selected rows, active navigation items."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "Disabled controls."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "High-contrast inverse surface: tooltips."
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "#0C101899",
+          "$description": "Scrim behind modals & drawers."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.600}",
+          "$description": "Primary actions, checked controls."
+        },
+        "brand-hover": {
+          "$type": "color",
+          "$value": "{primitive.brand.700}",
+          "$description": "Hover for bg/brand."
+        },
+        "brand-pressed": {
+          "$type": "color",
+          "$value": "{primitive.brand.800}",
+          "$description": "Pressed for bg/brand."
+        },
+        "brand-subtle": {
+          "$type": "color",
+          "$value": "{primitive.brand.50}",
+          "$description": "Low-emphasis brand tint: avatars, ghost hover, info chips."
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Solid neutral badges."
+        },
+        "neutral-subtle": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "Subtle neutral badges and chips."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.600}",
+          "$description": "Destructive actions, solid danger badges."
+        },
+        "danger-hover": {
+          "$type": "color",
+          "$value": "{primitive.red.700}",
+          "$description": "Hover for bg/danger."
+        },
+        "danger-subtle": {
+          "$type": "color",
+          "$value": "{primitive.red.50}",
+          "$description": "Danger alerts, error badges."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.700}",
+          "$description": "Solid success badges."
+        },
+        "success-subtle": {
+          "$type": "color",
+          "$value": "{primitive.green.50}",
+          "$description": "Success alerts & badges."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.400}",
+          "$description": "Solid warning badges (pair with text/on-warning)."
+        },
+        "warning-subtle": {
+          "$type": "color",
+          "$value": "{primitive.amber.50}",
+          "$description": "Warning alerts & badges."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.600}",
+          "$description": "Solid info badges."
+        },
+        "info-subtle": {
+          "$type": "color",
+          "$value": "{primitive.blue.50}",
+          "$description": "Info alerts & badges."
+        },
+        "toggle-off": {
+          "$type": "color",
+          "$value": "{primitive.neutral.300}",
+          "$description": "Track of an unchecked toggle."
+        },
+        "toggle-off-hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.400}",
+          "$description": "Hover track of an unchecked toggle."
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "Headings, body copy, values."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Supporting copy, labels, table body."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.500}",
+          "$description": "Placeholders, captions, metadata."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.400}",
+          "$description": "Disabled text."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Text on bg/inverse."
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Text on bg/brand, bg/danger and other solid fills."
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "Text on bg/warning."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.600}",
+          "$description": "Brand-coloured text, ghost buttons, active nav."
+        },
+        "link": {
+          "$type": "color",
+          "$value": "{primitive.brand.600}",
+          "$description": "Inline links."
+        },
+        "link-hover": {
+          "$type": "color",
+          "$value": "{primitive.brand.800}",
+          "$description": "Hovered links."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.700}",
+          "$description": "Error messages, destructive menu items."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.700}",
+          "$description": "Positive values & messages."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.700}",
+          "$description": "Warning messages."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.700}",
+          "$description": "Informational messages."
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{primitive.neutral.200}",
+          "$description": "Card, table and divider borders."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "Row separators inside tables & lists."
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{primitive.neutral.450}",
+          "$description": "Form control borders (≥ 3:1 against bg/surface, WCAG 1.4.11)."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.500}",
+          "$description": "Hovered form control borders."
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{primitive.brand.500}",
+          "$description": "Focused control borders."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.600}",
+          "$description": "Selected / checked borders."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.500}",
+          "$description": "Invalid control borders, danger alerts."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.500}",
+          "$description": "Success alert borders."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.500}",
+          "$description": "Warning alert borders."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.500}",
+          "$description": "Info alert borders."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.200}",
+          "$description": "Disabled control borders."
+        }
+      },
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Default icons."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.400}",
+          "$description": "De-emphasised icons, placeholders."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.600}",
+          "$description": "Brand icons, active nav icons."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Icons on bg/inverse."
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Icons on solid fills; toggle knobs."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.300}",
+          "$description": "Disabled icons."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.600}",
+          "$description": "Danger icons."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.600}",
+          "$description": "Success icons, online status."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.500}",
+          "$description": "Warning icons."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.600}",
+          "$description": "Info icons."
+        }
+      },
+      "shadow": {
+        "strong": {
+          "$type": "color",
+          "$value": "#1018281A",
+          "$description": "Primary (key) shadow layer."
+        },
+        "soft": {
+          "$type": "color",
+          "$value": "#1018280F",
+          "$description": "Secondary (ambient) shadow layer."
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "#4F63F03D",
+          "$description": "Focus ring (4px spread)."
+        },
+        "ring-danger": {
+          "$type": "color",
+          "$value": "#F044383D",
+          "$description": "Focus ring on invalid controls."
+        }
+      },
+      "chart": {
+        "1": {
+          "$type": "color",
+          "$value": "{primitive.brand.500}",
+          "$description": "Categorical series 1."
+        },
+        "2": {
+          "$type": "color",
+          "$value": "{primitive.teal.500}",
+          "$description": "Categorical series 2."
+        },
+        "3": {
+          "$type": "color",
+          "$value": "{primitive.amber.500}",
+          "$description": "Categorical series 3."
+        },
+        "4": {
+          "$type": "color",
+          "$value": "{primitive.violet.500}",
+          "$description": "Categorical series 4."
+        },
+        "5": {
+          "$type": "color",
+          "$value": "{primitive.red.400}",
+          "$description": "Categorical series 5."
+        },
+        "6": {
+          "$type": "color",
+          "$value": "{primitive.blue.400}",
+          "$description": "Categorical series 6."
+        }
+      }
+    },
+    "dark": {
+      "bg": {
+        "canvas": {
+          "$type": "color",
+          "$value": "{primitive.neutral.950}",
+          "$description": "App/page background behind surfaces."
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "Default container surface: cards, tables, inputs."
+        },
+        "surface-raised": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Floating surfaces: menus, popovers, modals, toasts."
+        },
+        "surface-sunken": {
+          "$type": "color",
+          "$value": "#07090E",
+          "$description": "Recessed areas: table headers, code blocks, wells."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Hover state for neutral interactive rows & items."
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{primitive.neutral.700}",
+          "$description": "Pressed state for neutral interactive items; progress tracks."
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{primitive.brand.950}",
+          "$description": "Selected rows, active navigation items."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Disabled controls."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.100}",
+          "$description": "High-contrast inverse surface: tooltips."
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "#000000B3",
+          "$description": "Scrim behind modals & drawers."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.500}",
+          "$description": "Primary actions, checked controls."
+        },
+        "brand-hover": {
+          "$type": "color",
+          "$value": "{primitive.brand.400}",
+          "$description": "Hover for bg/brand."
+        },
+        "brand-pressed": {
+          "$type": "color",
+          "$value": "{primitive.brand.300}",
+          "$description": "Pressed for bg/brand."
+        },
+        "brand-subtle": {
+          "$type": "color",
+          "$value": "{primitive.brand.950}",
+          "$description": "Low-emphasis brand tint: avatars, ghost hover, info chips."
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Solid neutral badges."
+        },
+        "neutral-subtle": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Subtle neutral badges and chips."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.600}",
+          "$description": "Destructive actions, solid danger badges."
+        },
+        "danger-hover": {
+          "$type": "color",
+          "$value": "{primitive.red.700}",
+          "$description": "Hover for bg/danger."
+        },
+        "danger-subtle": {
+          "$type": "color",
+          "$value": "{primitive.red.950}",
+          "$description": "Danger alerts, error badges."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.700}",
+          "$description": "Solid success badges."
+        },
+        "success-subtle": {
+          "$type": "color",
+          "$value": "{primitive.green.950}",
+          "$description": "Success alerts & badges."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.400}",
+          "$description": "Solid warning badges (pair with text/on-warning)."
+        },
+        "warning-subtle": {
+          "$type": "color",
+          "$value": "{primitive.amber.950}",
+          "$description": "Warning alerts & badges."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.700}",
+          "$description": "Solid info badges."
+        },
+        "info-subtle": {
+          "$type": "color",
+          "$value": "{primitive.blue.950}",
+          "$description": "Info alerts & badges."
+        },
+        "toggle-off": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Track of an unchecked toggle."
+        },
+        "toggle-off-hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.500}",
+          "$description": "Hover track of an unchecked toggle."
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.50}",
+          "$description": "Headings, body copy, values."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.300}",
+          "$description": "Supporting copy, labels, table body."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.400}",
+          "$description": "Placeholders, captions, metadata."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Disabled text."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "Text on bg/inverse."
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Text on bg/brand, bg/danger and other solid fills."
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{primitive.neutral.950}",
+          "$description": "Text on bg/warning."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.300}",
+          "$description": "Brand-coloured text, ghost buttons, active nav."
+        },
+        "link": {
+          "$type": "color",
+          "$value": "{primitive.brand.300}",
+          "$description": "Inline links."
+        },
+        "link-hover": {
+          "$type": "color",
+          "$value": "{primitive.brand.200}",
+          "$description": "Hovered links."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.300}",
+          "$description": "Error messages, destructive menu items."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.300}",
+          "$description": "Positive values & messages."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.300}",
+          "$description": "Warning messages."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.300}",
+          "$description": "Informational messages."
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{primitive.neutral.700}",
+          "$description": "Card, table and divider borders."
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Row separators inside tables & lists."
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{primitive.neutral.500}",
+          "$description": "Form control borders (≥ 3:1 against bg/surface, WCAG 1.4.11)."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{primitive.neutral.400}",
+          "$description": "Hovered form control borders."
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{primitive.brand.400}",
+          "$description": "Focused control borders."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.400}",
+          "$description": "Selected / checked borders."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.400}",
+          "$description": "Invalid control borders, danger alerts."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.400}",
+          "$description": "Success alert borders."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.400}",
+          "$description": "Warning alert borders."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.400}",
+          "$description": "Info alert borders."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.800}",
+          "$description": "Disabled control borders."
+        }
+      },
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{primitive.neutral.300}",
+          "$description": "Default icons."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{primitive.neutral.500}",
+          "$description": "De-emphasised icons, placeholders."
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{primitive.brand.300}",
+          "$description": "Brand icons, active nav icons."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{primitive.neutral.900}",
+          "$description": "Icons on bg/inverse."
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{primitive.neutral.0}",
+          "$description": "Icons on solid fills; toggle knobs."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{primitive.neutral.600}",
+          "$description": "Disabled icons."
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{primitive.red.400}",
+          "$description": "Danger icons."
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{primitive.green.400}",
+          "$description": "Success icons, online status."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{primitive.amber.400}",
+          "$description": "Warning icons."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{primitive.blue.400}",
+          "$description": "Info icons."
+        }
+      },
+      "shadow": {
+        "strong": {
+          "$type": "color",
+          "$value": "#00000080",
+          "$description": "Primary (key) shadow layer."
+        },
+        "soft": {
+          "$type": "color",
+          "$value": "#0000004D",
+          "$description": "Secondary (ambient) shadow layer."
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "#7187F866",
+          "$description": "Focus ring (4px spread)."
+        },
+        "ring-danger": {
+          "$type": "color",
+          "$value": "#F9706666",
+          "$description": "Focus ring on invalid controls."
+        }
+      },
+      "chart": {
+        "1": {
+          "$type": "color",
+          "$value": "{primitive.brand.400}",
+          "$description": "Categorical series 1."
+        },
+        "2": {
+          "$type": "color",
+          "$value": "{primitive.teal.400}",
+          "$description": "Categorical series 2."
+        },
+        "3": {
+          "$type": "color",
+          "$value": "{primitive.amber.400}",
+          "$description": "Categorical series 3."
+        },
+        "4": {
+          "$type": "color",
+          "$value": "{primitive.violet.400}",
+          "$description": "Categorical series 4."
+        },
+        "5": {
+          "$type": "color",
+          "$value": "{primitive.red.300}",
+          "$description": "Categorical series 5."
+        },
+        "6": {
+          "$type": "color",
+          "$value": "{primitive.blue.300}",
+          "$description": "Categorical series 6."
+        }
+      }
+    }
+  },
+  "dimension": {
+    "comfortable": {
+      "space": {
+        "0": {
+          "$type": "dimension",
+          "$value": "0px",
+          "$description": "No spacing."
+        },
+        "50": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Hairline gaps (badge dot ↔ label)."
+        },
+        "100": {
+          "$type": "dimension",
+          "$value": "4px",
+          "$description": "Icon ↔ text in tight controls."
+        },
+        "150": {
+          "$type": "dimension",
+          "$value": "6px",
+          "$description": "Label ↔ control."
+        },
+        "200": {
+          "$type": "dimension",
+          "$value": "8px",
+          "$description": "Default inline gap."
+        },
+        "300": {
+          "$type": "dimension",
+          "$value": "12px",
+          "$description": "Control inner padding (SM)."
+        },
+        "400": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Control inner padding (MD), card gaps."
+        },
+        "500": {
+          "$type": "dimension",
+          "$value": "20px",
+          "$description": "Card padding."
+        },
+        "600": {
+          "$type": "dimension",
+          "$value": "24px",
+          "$description": "Section gaps, page gutters."
+        },
+        "800": {
+          "$type": "dimension",
+          "$value": "32px",
+          "$description": "Page padding."
+        },
+        "1000": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$description": "Large section gaps."
+        },
+        "1200": {
+          "$type": "dimension",
+          "$value": "48px",
+          "$description": "Layout gaps."
+        },
+        "1600": {
+          "$type": "dimension",
+          "$value": "64px",
+          "$description": "Documentation section gaps."
+        },
+        "2000": {
+          "$type": "dimension",
+          "$value": "80px",
+          "$description": "Documentation page padding."
+        }
+      },
+      "radius": {
+        "none": {
+          "$type": "dimension",
+          "$value": "0px",
+          "$description": "Sharp corners: banners, table cells."
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Kbd hints, tiny tags."
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "4px",
+          "$description": "Checkboxes, menu items."
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "6px",
+          "$description": "Buttons, inputs, chips."
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "8px",
+          "$description": "Cards, menus, tables."
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "12px",
+          "$description": "Modals, large cards."
+        },
+        "2xl": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Documentation panels."
+        },
+        "full": {
+          "$type": "dimension",
+          "$value": "999px",
+          "$description": "Pills, avatars, toggles."
+        }
+      },
+      "border-width": {
+        "default": {
+          "$type": "dimension",
+          "$value": "1px",
+          "$description": "Default stroke."
+        },
+        "thick": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Selected/active indicators."
+        }
+      },
+      "size": {
+        "control-sm": {
+          "$type": "dimension",
+          "$value": "32px",
+          "$description": "Small control height."
+        },
+        "control-md": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$description": "Medium (default) control height."
+        },
+        "control-lg": {
+          "$type": "dimension",
+          "$value": "48px",
+          "$description": "Large control height."
+        },
+        "table-row": {
+          "$type": "dimension",
+          "$value": "56px",
+          "$description": "Data table body row height."
+        },
+        "table-header": {
+          "$type": "dimension",
+          "$value": "44px",
+          "$description": "Data table header row height."
+        },
+        "nav-height": {
+          "$type": "dimension",
+          "$value": "64px",
+          "$description": "Top navigation height."
+        },
+        "sidebar": {
+          "$type": "dimension",
+          "$value": "248px",
+          "$description": "Expanded sidebar width."
+        },
+        "sidebar-collapsed": {
+          "$type": "dimension",
+          "$value": "72px",
+          "$description": "Collapsed sidebar width."
+        },
+        "icon-sm": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Small icon."
+        },
+        "icon-md": {
+          "$type": "dimension",
+          "$value": "20px",
+          "$description": "Medium icon."
+        },
+        "icon-lg": {
+          "$type": "dimension",
+          "$value": "24px",
+          "$description": "Large icon."
+        }
+      }
+    },
+    "compact": {
+      "space": {
+        "0": {
+          "$type": "dimension",
+          "$value": "0px",
+          "$description": "No spacing."
+        },
+        "50": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Hairline gaps (badge dot ↔ label)."
+        },
+        "100": {
+          "$type": "dimension",
+          "$value": "4px",
+          "$description": "Icon ↔ text in tight controls."
+        },
+        "150": {
+          "$type": "dimension",
+          "$value": "6px",
+          "$description": "Label ↔ control."
+        },
+        "200": {
+          "$type": "dimension",
+          "$value": "8px",
+          "$description": "Default inline gap."
+        },
+        "300": {
+          "$type": "dimension",
+          "$value": "12px",
+          "$description": "Control inner padding (SM)."
+        },
+        "400": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Control inner padding (MD), card gaps."
+        },
+        "500": {
+          "$type": "dimension",
+          "$value": "20px",
+          "$description": "Card padding."
+        },
+        "600": {
+          "$type": "dimension",
+          "$value": "24px",
+          "$description": "Section gaps, page gutters."
+        },
+        "800": {
+          "$type": "dimension",
+          "$value": "32px",
+          "$description": "Page padding."
+        },
+        "1000": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$description": "Large section gaps."
+        },
+        "1200": {
+          "$type": "dimension",
+          "$value": "48px",
+          "$description": "Layout gaps."
+        },
+        "1600": {
+          "$type": "dimension",
+          "$value": "64px",
+          "$description": "Documentation section gaps."
+        },
+        "2000": {
+          "$type": "dimension",
+          "$value": "80px",
+          "$description": "Documentation page padding."
+        }
+      },
+      "radius": {
+        "none": {
+          "$type": "dimension",
+          "$value": "0px",
+          "$description": "Sharp corners: banners, table cells."
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Kbd hints, tiny tags."
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "4px",
+          "$description": "Checkboxes, menu items."
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "6px",
+          "$description": "Buttons, inputs, chips."
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "8px",
+          "$description": "Cards, menus, tables."
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "12px",
+          "$description": "Modals, large cards."
+        },
+        "2xl": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Documentation panels."
+        },
+        "full": {
+          "$type": "dimension",
+          "$value": "999px",
+          "$description": "Pills, avatars, toggles."
+        }
+      },
+      "border-width": {
+        "default": {
+          "$type": "dimension",
+          "$value": "1px",
+          "$description": "Default stroke."
+        },
+        "thick": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Selected/active indicators."
+        }
+      },
+      "size": {
+        "control-sm": {
+          "$type": "dimension",
+          "$value": "28px",
+          "$description": "Small control height."
+        },
+        "control-md": {
+          "$type": "dimension",
+          "$value": "32px",
+          "$description": "Medium (default) control height."
+        },
+        "control-lg": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$description": "Large control height."
+        },
+        "table-row": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$description": "Data table body row height."
+        },
+        "table-header": {
+          "$type": "dimension",
+          "$value": "36px",
+          "$description": "Data table header row height."
+        },
+        "nav-height": {
+          "$type": "dimension",
+          "$value": "56px",
+          "$description": "Top navigation height."
+        },
+        "sidebar": {
+          "$type": "dimension",
+          "$value": "248px",
+          "$description": "Expanded sidebar width."
+        },
+        "sidebar-collapsed": {
+          "$type": "dimension",
+          "$value": "64px",
+          "$description": "Collapsed sidebar width."
+        },
+        "icon-sm": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$description": "Small icon."
+        },
+        "icon-md": {
+          "$type": "dimension",
+          "$value": "20px",
+          "$description": "Medium icon."
+        },
+        "icon-lg": {
+          "$type": "dimension",
+          "$value": "24px",
+          "$description": "Large icon."
+        }
+      }
+    }
+  },
+  "typography": {
+    "Display": {
+      "Large": {
+        "$type": "typography",
+        "$description": "Marketing-style hero numbers, empty dashboards, cover pages.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "fontSize": "48px",
+          "lineHeight": "56px",
+          "letterSpacing": "-0.02em",
+          "textTransform": "none"
+        }
+      },
+      "Medium": {
+        "$type": "typography",
+        "$description": "Large KPI figures, onboarding headlines.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "fontSize": "36px",
+          "lineHeight": "44px",
+          "letterSpacing": "-0.02em",
+          "textTransform": "none"
+        }
+      }
+    },
+    "Heading": {
+      "H1": {
+        "$type": "typography",
+        "$description": "Page titles (one per page).",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": "30px",
+          "lineHeight": "38px",
+          "letterSpacing": "-0.01em",
+          "textTransform": "none"
+        }
+      },
+      "H2": {
+        "$type": "typography",
+        "$description": "Section titles, KPI values.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": "24px",
+          "lineHeight": "32px",
+          "letterSpacing": "-0.01em",
+          "textTransform": "none"
+        }
+      },
+      "H3": {
+        "$type": "typography",
+        "$description": "Modal titles, large card titles.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      },
+      "H4": {
+        "$type": "typography",
+        "$description": "Card & table titles.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": "18px",
+          "lineHeight": "26px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      },
+      "H5": {
+        "$type": "typography",
+        "$description": "Sub-section titles, form section headers.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      }
+    },
+    "Body": {
+      "Large": {
+        "Regular": {
+          "$type": "typography",
+          "$description": "Long-form reading, descriptions in docs.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$description": "Emphasised long-form text.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        }
+      },
+      "Medium": {
+        "Regular": {
+          "$type": "typography",
+          "$description": "Default UI text: table cells, form values, paragraphs.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$description": "Emphasised UI text: names in tables, numbers.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        },
+        "Semibold": {
+          "$type": "typography",
+          "$description": "Strong emphasis inside UI text.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        }
+      },
+      "Small": {
+        "Regular": {
+          "$type": "typography",
+          "$description": "Helper text, metadata, timestamps.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 400,
+            "fontSize": "12px",
+            "lineHeight": "18px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        },
+        "Medium": {
+          "$type": "typography",
+          "$description": "Emphasised helper text.",
+          "$value": {
+            "fontFamily": "Inter",
+            "fontWeight": 500,
+            "fontSize": "12px",
+            "lineHeight": "18px",
+            "letterSpacing": "0em",
+            "textTransform": "none"
+          }
+        }
+      }
+    },
+    "Label": {
+      "Large": {
+        "$type": "typography",
+        "$description": "Large buttons.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 500,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      },
+      "Medium": {
+        "$type": "typography",
+        "$description": "Buttons, form labels, tabs, nav items.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 500,
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      },
+      "Small": {
+        "$type": "typography",
+        "$description": "Small buttons, badges, chips.",
+        "$value": {
+          "fontFamily": "Inter",
+          "fontWeight": 500,
+          "fontSize": "12px",
+          "lineHeight": "16px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      }
+    },
+    "Overline": {
+      "$type": "typography",
+      "$description": "Section eyebrows, sidebar group labels.",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 600,
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "letterSpacing": "0.06em",
+        "textTransform": "uppercase"
+      }
+    },
+    "Caption": {
+      "$type": "typography",
+      "$description": "Chart axes, legal copy, footnotes.",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontWeight": 400,
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0em",
+        "textTransform": "none"
+      }
+    },
+    "Code": {
+      "Medium": {
+        "$type": "typography",
+        "$description": "IDs, API keys, code snippets.",
+        "$value": {
+          "fontFamily": "Roboto Mono",
+          "fontWeight": 400,
+          "fontSize": "13px",
+          "lineHeight": "20px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      },
+      "Small": {
+        "$type": "typography",
+        "$description": "Keyboard hints, inline IDs in tables.",
+        "$value": {
+          "fontFamily": "Roboto Mono",
+          "fontWeight": 400,
+          "fontSize": "12px",
+          "lineHeight": "16px",
+          "letterSpacing": "0em",
+          "textTransform": "none"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "Elevation": {
+      "0-Flat": {
+        "$type": "shadow",
+        "$description": "No shadow. Cards on canvas with a border.",
+        "$value": []
+      },
+      "1-XS": {
+        "$type": "shadow",
+        "$description": "Buttons, inputs (subtle lift).",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "2px",
+            "spread": "0px",
+            "color": "{color.shadow.soft}"
+          }
+        ]
+      },
+      "2-SM": {
+        "$type": "shadow",
+        "$description": "Cards, stat tiles.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "3px",
+            "spread": "0px",
+            "color": "{color.shadow.strong}"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "2px",
+            "spread": "0px",
+            "color": "{color.shadow.soft}"
+          }
+        ]
+      },
+      "3-MD": {
+        "$type": "shadow",
+        "$description": "Hovered cards, sticky headers.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "4px",
+            "blur": "8px",
+            "spread": "-2px",
+            "color": "{color.shadow.strong}"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "4px",
+            "spread": "-2px",
+            "color": "{color.shadow.soft}"
+          }
+        ]
+      },
+      "4-LG": {
+        "$type": "shadow",
+        "$description": "Dropdown menus, popovers, toasts.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "12px",
+            "blur": "16px",
+            "spread": "-4px",
+            "color": "{color.shadow.strong}"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "4px",
+            "blur": "6px",
+            "spread": "-2px",
+            "color": "{color.shadow.soft}"
+          }
+        ]
+      },
+      "5-XL": {
+        "$type": "shadow",
+        "$description": "Modals, drawers.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "20px",
+            "blur": "24px",
+            "spread": "-4px",
+            "color": "{color.shadow.strong}"
+          },
+          {
+            "offsetX": "0px",
+            "offsetY": "8px",
+            "blur": "8px",
+            "spread": "-4px",
+            "color": "{color.shadow.soft}"
+          }
+        ]
+      }
+    },
+    "Focus": {
+      "Ring": {
+        "$type": "shadow",
+        "$description": "Keyboard focus on any interactive control.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "0px",
+            "blur": "0px",
+            "spread": "4px",
+            "color": "{color.focus.ring}"
+          }
+        ]
+      },
+      "Ring-Danger": {
+        "$type": "shadow",
+        "$description": "Keyboard focus on invalid controls.",
+        "$value": [
+          {
+            "offsetX": "0px",
+            "offsetY": "0px",
+            "blur": "0px",
+            "spread": "4px",
+            "color": "{color.focus.ring-danger}"
+          }
+        ]
+      }
+    }
+  }
+}

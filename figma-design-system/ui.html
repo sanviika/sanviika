@@ -1,0 +1,54 @@
+<style>
+  :root { --bg: var(--figma-color-bg, #fff); --fg: var(--figma-color-text, #161b26); --muted: var(--figma-color-text-secondary, #4d5668); --border: var(--figma-color-border, #e4e7ee); --brand: #3a47e0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 16px; font: 12px/1.5 Inter, system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+  h1 { font-size: 15px; margin: 0 0 4px; }
+  p { margin: 0 0 12px; color: var(--muted); }
+  label { display: block; font-weight: 600; margin: 12px 0 4px; }
+  input[type=text] { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; background: transparent; color: var(--fg); font: inherit; }
+  .row { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-weight: 500; }
+  .hint { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  button { width: 100%; margin-top: 16px; padding: 10px; border: 0; border-radius: 6px; background: var(--brand); color: #fff; font: 600 13px Inter, sans-serif; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  #log { margin-top: 12px; white-space: pre-wrap; font: 11px/1.5 ui-monospace, monospace; color: var(--muted); max-height: 190px; overflow: auto; }
+  .ok { color: #039855; } .err { color: #d92d20; }
+</style>
+<h1>Northstar · B2B Design System</h1>
+<p>Generates foundations, atoms, molecules, organisms, templates and documentation, with every element on its own page.</p>
+
+<label for="source">Source node (organisms + brand colour)</label>
+<input id="source" type="text" value="6349:84202" />
+<div class="hint">Node id from the linked file URL (?node-id=6349-84202). Run the plugin inside that file.</div>
+<div class="row"><input id="useSource" type="checkbox" checked /> <span>Import organisms &amp; brand colour from source</span></div>
+
+<label for="brand">Brand colour override (optional)</label>
+<input id="brand" type="text" placeholder="#3A47E0 — leave empty to use the source / default" />
+
+<div class="row"><input id="templates" type="checkbox" checked /> <span>Build page templates (Light, Dark, Compact)</span></div>
+<div class="row"><input id="rebuild" type="checkbox" /> <span>Rebuild: delete a previous Northstar build first</span></div>
+
+<button id="go">Generate design system</button>
+<div id="log"></div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const log = (m, cls) => { const d = document.createElement('div'); if (cls) d.className = cls; d.textContent = m; $('log').appendChild(d); $('log').scrollTop = 1e9; };
+  $('go').onclick = () => {
+    $('go').disabled = true; $('log').innerHTML = '';
+    log('Starting… this can take 1–3 minutes.');
+    parent.postMessage({ pluginMessage: { type: 'generate', options: {
+      sourceId: $('source').value, useSource: $('useSource').checked, brandHex: $('brand').value,
+      templates: $('templates').checked, rebuild: $('rebuild').checked,
+    } } }, '*');
+  };
+  onmessage = (e) => {
+    const m = e.data.pluginMessage; if (!m) return;
+    if (m.type === 'progress') log(m.msg);
+    if (m.type === 'done') {
+      $('go').disabled = false;
+      log(m.summary, m.ok ? 'ok' : 'err');
+      (m.errors || []).forEach((x) => log('✖ ' + x, 'err'));
+      (m.warnings || []).forEach((x) => log('⚠ ' + x));
+    }
+  };
+</script>
