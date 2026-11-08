@@ -1,0 +1,43 @@
+{
+  "fileKey": "UtHigEPGn4RZZxHl7ihXoQ",
+  "collections": {
+    "DS Primitives": "VariableCollectionId:10008:2",
+    "DS Color": "VariableCollectionId:10008:96",
+    "DS Color Light mode": "10008:1",
+    "DS Dimensions": "VariableCollectionId:10008:167",
+    "DS Typography": "VariableCollectionId:10008:197"
+  },
+  "insertBefore": "6349:84203",
+  "notes": "Starter plan: DS Color has Light only. After upgrade run add-dark-mode step (SEM dark values in tokens.js).",
+  "pages": {},
+  "components": {},
+  "icons": {},
+  "status": {
+    "done": [
+      "DS Primitives (93)",
+      "DS Color Light (70 tokens)",
+      "DS Dimensions (29)",
+      "DS Typography",
+      "13 DS/ text styles (Roboto)",
+      "7 DS/ effect styles"
+    ],
+    "blocked": [
+      "Dark mode: Starter = 1 variable mode",
+      "New pages: Starter = 3-page cap",
+      "MCP tool-call limit reached on Starter"
+    ],
+    "next": [
+      "After upgrade: addMode Dark on DS Color and set dark values from tokens.js SEM[2]",
+      "Create DS pages (list in build call) + icons",
+      "Atoms, molecules, organisms (from Alerts/Targets/Risk Metric/Upload screens), templates"
+    ]
+  },
+  "sourceScreens": {
+    "Alerts table": "20:155",
+    "Targets main": "2530:51701",
+    "Risk Metric": "2530:44247",
+    "Side nav expanded": "1258:3053",
+    "Upload modal": "2530:51481",
+    "Filter menu": "2530:51496"
+  }
+}
