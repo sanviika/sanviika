@@ -141,12 +141,38 @@
   "Select": "9:403",
   "Search Bar": "9:683",
   "Form Field": "9:942",
-  "Nav Item": "9:1263"
+  "Nav Item": "9:1263",
+  "Page Button": "11:58",
+  "Pagination": "11:59",
+  "Table Cell": "11:409",
+  "Table Row": "11:546",
+  "Table Header Row": "11:547",
+  "Alert Banner": "11:1040",
+  "Toast": "11:1337",
+  "Upload Dropzone": "11:1586",
+  "Filter Menu": "11:1756",
+  "Nav Bar": "12:139",
+  "Side Navigation": "12:641",
+  "Page Header": "12:1104",
+  "Filter Bar": "12:1486",
+  "Table Toolbar": "12:1809",
+  "Alerts Table": "13:60",
+  "Metric Row": "13:921",
+  "Risk Metric Table": "13:922",
+  "Risk Summary Editor": "13:1907",
+  "Upload Modal": "13:2393"
  },
  "remaining": [
-  "Molecules: Pagination, Table Cell & Row, Alert Banner, Toast, Upload Dropzone, Filter Menu",
-  "Organisms: Nav Bar, Side Navigation, Page Header, Filter Bar, Table Toolbar, Alerts Table, Risk Metric Table, Risk Summary Editor, Upload Modal",
-  "Templates: Alerts, Risk Metric",
   "Docs: Cover, Getting Started, Colour, Typography, Spacing/Radius/Elevation, Iconography, Changelog"
- ]
+ ],
+ "templates": {
+  "Alerts": [
+   "14:252",
+   "14:886"
+  ],
+  "Risk Metric": [
+   "14:1351",
+   "14:2156"
+  ]
+ }
 }
