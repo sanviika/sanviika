@@ -162,9 +162,7 @@
   "Risk Summary Editor": "13:1907",
   "Upload Modal": "13:2393"
  },
- "remaining": [
-  "Docs: Cover, Getting Started, Colour, Typography, Spacing/Radius/Elevation, Iconography, Changelog"
- ],
+ "remaining": [],
  "templates": {
   "Alerts": [
    "14:252",
@@ -174,5 +172,18 @@
    "14:1351",
    "14:2156"
   ]
- }
+ },
+ "docs": {
+  "Colour": "15:2",
+  "Typography": "15:960",
+  "Spacing, Radius & Elevation": "15:1077",
+  "Iconography": "15:1258",
+  "Getting Started": "15:1449",
+  "Changelog": "15:1580",
+  "Cover": [
+   "15:1604",
+   "15:1632"
+  ]
+ },
+ "status": "Complete: foundations, 15 atoms, 11 molecules, 9 organisms, 2 templates (Light+Dark), docs pages."
 }
