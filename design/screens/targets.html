@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Targets · Supply Wisdom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
+  <link rel="stylesheet" href="../assets/components.css">
+  <script src="../assets/icons.js"></script>
+  <script src="../assets/app.js" defer></script>
+</head>
+<body>
+<!-- Figma: Targets Main Screen (10012:42593) -->
+<div class="sw-app">
+  <!-- Organism · Nav Bar -->
+  <header class="sw-navbar">
+    <div class="sw-navbar__brand">
+      <button class="sw-navbar__menu" aria-label="Menu"><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-menu"></use></svg></button>
+      <a class="sw-logo" href="../index.html">
+        <span class="sw-logo__mark">S</span>
+        <span class="sw-logo__type">Supply<br>Wisdom</span>
+      </a>
+    </div>
+    <label class="sw-search-nav">
+      <svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input type="search" placeholder="Search" aria-label="Search">
+    </label>
+    <div class="sw-navbar__actions">
+      <button class="sw-navbar__action" aria-label="Theme"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-moon"></use></svg></button>
+      <button class="sw-navbar__action" aria-label="Notifications"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-bell"></use></svg><span class="sw-navbar__count">5</span></button>
+      <button class="sw-navbar__action" aria-label="Help"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-help-circle"></use></svg></button>
+      <span class="sw-navbar__divider"></span>
+      <button class="sw-navbar__user" aria-label="Account"><span class="sw-avatar">SK</span><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-chevron-down"></use></svg></button>
+    </div>
+  </header>
+
+  <!-- Organism · Side Navigation (collapsed) -->
+  <nav class="sw-sidenav" aria-label="Primary">
+    <a class="sw-nav-item" href="#" title="Home" aria-label="Home"><svg class="sw-icon" aria-hidden="true"><use href="#i-home"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Alerts" aria-label="Alerts"><svg class="sw-icon" aria-hidden="true"><use href="#i-alert-triangle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Cognitive Analysis" aria-label="Cognitive Analysis"><svg class="sw-icon" aria-hidden="true"><use href="#i-bulb"></use></svg></a>
+    <a class="sw-nav-item is-active" href="targets.html" title="Targets" aria-label="Targets" aria-current="page"><svg class="sw-icon" aria-hidden="true"><use href="#i-target"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Industry News" aria-label="Industry News"><svg class="sw-icon" aria-hidden="true"><use href="#i-megaphone"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Parameters" aria-label="Parameters"><svg class="sw-icon" aria-hidden="true"><use href="#i-chart-line"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Performance Metric" aria-label="Performance Metric"><svg class="sw-icon" aria-hidden="true"><use href="#i-thumbs-up"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Users" aria-label="Users"><svg class="sw-icon" aria-hidden="true"><use href="#i-user"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Target Allocation" aria-label="Target Allocation"><svg class="sw-icon" aria-hidden="true"><use href="#i-pin"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Resources" aria-label="Resources"><svg class="sw-icon" aria-hidden="true"><use href="#i-link"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Queries" aria-label="Queries"><svg class="sw-icon" aria-hidden="true"><use href="#i-help-circle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Manage Forms" aria-label="Manage Forms"><svg class="sw-icon" aria-hidden="true"><use href="#i-form"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Subscriptions" aria-label="Subscriptions"><svg class="sw-icon" aria-hidden="true"><use href="#i-monitor"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Subscription List" aria-label="Subscription List"><svg class="sw-icon" aria-hidden="true"><use href="#i-list"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Organisations" aria-label="Organisations"><svg class="sw-icon" aria-hidden="true"><use href="#i-building"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="File Repository" aria-label="File Repository"><svg class="sw-icon" aria-hidden="true"><use href="#i-folder"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Utilities" aria-label="Utilities"><svg class="sw-icon" aria-hidden="true"><use href="#i-printer"></use></svg></a>
+  </nav>
+
+  <main class="sw-main">
+    <!-- Organism · Page Header (List) -->
+    <header class="sw-page-header">
+      <div class="sw-page-header__title-row"><h1 class="sw-page-header__title">Targets</h1></div>
+    </header>
+
+    <!-- Organism · Filter Bar -->
+    <div class="sw-filter-bar">
+      <div class="sw-filter-bar__group">
+        <nav class="sw-segmented" aria-label="Targets view">
+          <a class="sw-segment is-selected" href="targets.html" aria-current="page">Targets</a>
+          <a class="sw-segment" href="cyber-score.html">Cyber Score</a>
+        </nav>
+        <label class="sw-select" style="width:200px"><select aria-label="Target Type" required><option value="" disabled selected hidden>Target Type</option><option>Countries</option><option>Cities</option><option>Third Parties</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label>
+        <label class="sw-select" style="width:200px"><select aria-label="Target Owner" required><option value="" disabled selected hidden>Target Owner</option><option>Admin</option><option>abc@supplywisdom.com</option><option>xyz@supplywisdom.com</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label>
+        <label class="sw-select" style="width:200px"><select aria-label="Current Owner" required><option value="" disabled selected hidden>Current Owner</option><option>Admin</option><option>abc@supplywisdom.com</option><option>abc@sw.com</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label>
+        <button class="sw-icon-btn sw-icon-btn--secondary" aria-label="Add filter"><svg class="sw-icon" aria-hidden="true"><use href="#i-plus"></use></svg></button>
+        <button class="sw-icon-btn" disabled aria-label="Apply search"><svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+      </div>
+      <div class="sw-filter-bar__group">
+        <button class="sw-icon-btn sw-icon-btn--secondary" aria-label="Upload targets"><svg class="sw-icon" aria-hidden="true"><use href="#i-cloud-upload"></use></svg></button>
+        <button class="sw-icon-btn sw-icon-btn--secondary" aria-label="Download"><svg class="sw-icon" aria-hidden="true"><use href="#i-download"></use></svg></button>
+        <button class="sw-btn sw-btn--primary"><svg class="sw-icon" aria-hidden="true"><use href="#i-plus"></use></svg>New Target</button>
+      </div>
+    </div>
+
+    <!-- Organism · Table Toolbar -->
+    <div class="sw-table-toolbar">
+      <h2 class="sw-table-toolbar__title">Total Targets - 123309</h2>
+      <div class="sw-table-toolbar__tools">
+        <label class="sw-input" style="width:330px"><svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg><input type="text" placeholder="Enter Target Name here" aria-label="Enter Target Name here"></label>
+        <button class="sw-icon-btn" aria-label="Column filter"><svg class="sw-icon" aria-hidden="true"><use href="#i-filter"></use></svg></button>
+      </div>
+    </div>
+
+    <!-- Table Cell & Row -->
+    <div class="sw-table-wrap">
+    <table class="sw-table">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Target Type</th><th>Category</th><th>Status</th><th>Target Owner</th>
+          <th>Current Owner</th><th>Subscription Tier</th><th>Website</th><th>Parent Target</th>
+          <th>Industry vertical</th><th>Service Line</th><th>Active Subscriptions</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Afghanistan</a></td>
+        <td>Countries</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="sanvika@supplywisdom.com">sanvika@supplywisdom.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title=""></td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">AI24</a></td>
+        <td>Third Parties</td>
+        <td class="is-center">Private</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="abc@supplywisdom.com">abc@supplywisdom.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title="High Tier (Ops, Comp, ESG), Critical Tier">High Tier (Ops, Comp, ESG), Critical Tier</td>
+        <td class="is-truncate"><a class="sw-link" href="https://www.247.ai/">https://www.247.ai/</a></td>
+        <td>xyz parent</td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Bangalore</a></td>
+        <td>Cities</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="xyz@supplywisdom.com">xyz@supplywisdom.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title="High Tier (Ops, Comp, ESG), Critical Tier">High Tier (Ops, Comp, ESG), Critical Tier</td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Iraq</a></td>
+        <td>Countries</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="admin">admin</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title=""></td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">ZyXEL Communications Czech s.r.o.</a></td>
+        <td>Third Parties</td>
+        <td class="is-center">Private</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="tyu@supplywisdom.com">tyu@supplywisdom.com</td>
+        <td class="is-truncate" title="abc@supplywisdom.com">abc@supplywisdom.com</td>
+        <td class="is-truncate" style="max-width:220px" title="Alerts Only, Cyber Only, Custom Tier (CM - Fin and Alerts - Ops, Comp, ESG), Custom Tier (Ops, Comp, Cyber) with Nth Party, Critical Tier, High Tier (Ops, Comp, ESG)">Alerts Only, Cyber Only, Custom Tier (CM - Fin and Alerts - Ops, Comp, ESG), Custom Tier (Ops, Comp, Cyber) with Nth Party, Critical Tier, High Tier (Ops, Comp, ESG)</td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Kabul</a></td>
+        <td>Cities</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="gfh@sw.com">gfh@sw.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title=""></td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Infosys</a></td>
+        <td>Third Parties</td>
+        <td class="is-center">Private</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="cvb@supplywisdom.com">cvb@supplywisdom.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title="High Tier (Ops, Comp, ESG), Critical Tier">High Tier (Ops, Comp, ESG), Critical Tier</td>
+        <td class="is-truncate"></td>
+        <td>Demo Target</td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr class="is-inactive">
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">TCS</a></td>
+        <td>Third Parties</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--inactive">Inactive</span></td>
+        <td class="is-truncate" title="ouy@sw.com">ouy@sw.com</td>
+        <td class="is-truncate" title="abc@sw.com">abc@sw.com</td>
+        <td class="is-truncate" style="max-width:220px" title="Critical Tier">Critical Tier</td>
+        <td class="is-truncate"></td>
+        <td>Tata Consultancy</td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Australia</a></td>
+        <td>Countries</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="cjn@supplywisdom.com">cjn@supplywisdom.com</td>
+        <td class="is-truncate" title="abc@supplywisdom.com">abc@supplywisdom.com</td>
+        <td class="is-truncate" style="max-width:220px" title=""></td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      <tr>
+        <td>123456</td>
+        <td class="is-wrap" style="min-width:140px"><a class="sw-link" href="target-about.html">Mumbai</a></td>
+        <td>Cities</td>
+        <td class="is-center">Public</td>
+        <td><span class="sw-status sw-status--active">Active</span></td>
+        <td class="is-truncate" title="hvklmm@supplywisdom.com">hvklmm@supplywisdom.com</td>
+        <td class="is-truncate" title="Admin">Admin</td>
+        <td class="is-truncate" style="max-width:220px" title=""></td>
+        <td class="is-truncate"></td>
+        <td></td>
+        <td>Demo vertical</td>
+        <td>Demo service line</td>
+        <td class="is-center">2</td>
+      </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="sw-pagination-row">
+      <div class="sw-pagination">
+        <div class="sw-pagination__group">
+          <span>Results per page</span>
+          <label class="sw-select" style="width:72px"><select aria-label="50"><option value="" disabled hidden>50</option><option>10</option><option>25</option><option selected>50</option><option>100</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label>
+        </div>
+        <div class="sw-pagination__group">
+          <button class="sw-icon-btn" disabled aria-label="Previous page"><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-left"></use></svg></button>
+          <button class="sw-page-btn is-active">1</button><button class="sw-page-btn">2</button><button class="sw-page-btn">3</button><button class="sw-page-btn">4</button><button class="sw-page-btn">5</button><button class="sw-page-btn">…</button><button class="sw-page-btn">25</button>
+          <button class="sw-icon-btn sw-icon-btn--secondary" aria-label="Next page"><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-right"></use></svg></button>
+        </div>
+        <div class="sw-pagination__group ds-body-sm">
+          <span>Go to</span>
+          <label class="sw-input" style="width:64px"><input type="text" placeholder="……" aria-label="Go to page"></label>
+          <span>of 25</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

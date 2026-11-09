@@ -1,0 +1,174 @@
+/*
+ * Supply Wisdom Design System 1.0 — design tokens
+ * Source: Figma "Design System" file (4SZ0GfBdj3o2oZNT7WIY7v), DS Color + DS Dimensions collections.
+ *
+ * Rule from the DS: components use SEMANTIC tokens only (bg/*, text/*, border/*, icon/*, severity/*).
+ * Primitives are listed for reference; never use them directly in screens.
+ */
+
+:root {
+  /* ---------- Primitives (DS Primitives collection) ---------- */
+  --sw-color-navy-50: #f2f5f8;  --sw-color-navy-100: #e3e9ef; --sw-color-navy-150: #d7e5f2;
+  --sw-color-navy-200: #c7d2de; --sw-color-navy-300: #9dafc2; --sw-color-navy-400: #6c849e;
+  --sw-color-navy-500: #476079; --sw-color-navy-600: #2f465e; --sw-color-navy-700: #1f3347;
+  --sw-color-navy-800: #142536; --sw-color-navy-900: #0d1b28; --sw-color-navy-950: #070f17;
+
+  --sw-color-violet-50: #f5f3ff;  --sw-color-violet-100: #ede9fe; --sw-color-violet-200: #ddd6fe;
+  --sw-color-violet-300: #c4b5fd; --sw-color-violet-400: #a78bfa; --sw-color-violet-500: #8b5cf6;
+  --sw-color-violet-600: #7c3aed; --sw-color-violet-700: #6d28d9; --sw-color-violet-800: #5b21b6;
+  --sw-color-violet-900: #4c1d95; --sw-color-violet-950: #2e1065;
+
+  --sw-color-gray-0: #ffffff;   --sw-color-gray-25: #fdfdfd;  --sw-color-gray-50: #f9fafb;
+  --sw-color-gray-100: #f3f4f7; --sw-color-gray-150: #edf2f7; --sw-color-gray-200: #e1e6ef;
+  --sw-color-gray-300: #d1d5db; --sw-color-gray-400: #9ca3af; --sw-color-gray-450: #858d99;
+  --sw-color-gray-500: #656f7d; --sw-color-gray-600: #4b5563; --sw-color-gray-700: #374151;
+  --sw-color-gray-800: #1f2937; --sw-color-gray-900: #111827; --sw-color-gray-950: #030712;
+
+  --sw-color-ink-50: #eeeeee;  --sw-color-ink-300: #838d9b; --sw-color-ink-400: #7d7d7d;
+  --sw-color-ink-500: #4a4a4a; --sw-color-ink-600: #343434; --sw-color-ink-700: #1c1c1c;
+  --sw-color-ink-800: #171717; --sw-color-ink-900: #121212; --sw-color-ink-950: #0f1113;
+
+  --sw-color-blue-50: #eff6fd;  --sw-color-blue-100: #dbeafb; --sw-color-blue-300: #94c5f7;
+  --sw-color-blue-400: #5eaef4; --sw-color-blue-500: #2f8fe6; --sw-color-blue-600: #0a71ca;
+  --sw-color-blue-700: #085ba3; --sw-color-blue-800: #08487f; --sw-color-blue-950: #071e36;
+
+  --sw-color-green-50: #f3fae6;  --sw-color-green-100: #e2f3c3; --sw-color-green-400: #82cb02;
+  --sw-color-green-500: #72b202; --sw-color-green-600: #5b8e02; --sw-color-green-700: #456c01;
+  --sw-color-green-950: #1a2900;
+
+  --sw-color-steel-50: #eef4fa;  --sw-color-steel-100: #d9e6f3; --sw-color-steel-400: #6a9fd0;
+  --sw-color-steel-500: #5792ca; --sw-color-steel-700: #2f6496; --sw-color-steel-950: #0f2236;
+
+  --sw-color-amber-50: #fff8e6;  --sw-color-amber-100: #ffedc2; --sw-color-amber-400: #ffbf2b;
+  --sw-color-amber-500: #ffb611; --sw-color-amber-700: #8a5b00; --sw-color-amber-950: #3a2600;
+
+  --sw-color-orange-50: #fff1ea;  --sw-color-orange-100: #ffddcb; --sw-color-orange-400: #ff7b39;
+  --sw-color-orange-500: #ff681f; --sw-color-orange-600: #d9530e; --sw-color-orange-700: #a63f05;
+  --sw-color-orange-950: #3d1500;
+
+  --sw-color-red-50: #ffeded;  --sw-color-red-100: #ffd1d1; --sw-color-red-400: #ff5c5c;
+  --sw-color-red-500: #f90000; --sw-color-red-600: #df0000; --sw-color-red-700: #b00000;
+  --sw-color-red-950: #3d0000;
+
+  --sw-color-teal-100: #ccede8; --sw-color-teal-300: #7fd1c4;
+  --sw-color-teal-800: #0f5249; --sw-color-teal-900: #0a3832;
+
+  /* ---------- Semantic · Backgrounds ---------- */
+  --sw-bg-canvas: #fdfdfd;          /* Page background */
+  --sw-bg-surface: #ffffff;         /* Cards, tables, inputs */
+  --sw-bg-surface-raised: #ffffff;  /* Menus, popovers, modals */
+  --sw-bg-surface-sunken: #f3f4f7;  /* Filter bar container */
+  --sw-bg-table-header: #edf2f7;
+  --sw-bg-hover: #edf2f7;
+  --sw-bg-selected: #f5f3ff;        /* Selected rows, active nav item */
+  --sw-bg-disabled: #e1e6ef;
+  --sw-bg-inverse: #0d1b28;         /* Tooltips */
+  --sw-bg-overlay: #0d1b2899;       /* Modal scrim */
+  --sw-bg-nav: #0d1b28;             /* Top navigation bar */
+  --sw-bg-nav-input: #ffffff1a;
+  --sw-bg-brand: #0d1b28;           /* Selected segment, active page */
+  --sw-bg-brand-hover: #1f3347;
+  --sw-bg-action: #6d28d9;          /* Primary call-to-action */
+  --sw-bg-action-hover: #5b21b6;
+  --sw-bg-action-subtle: #f5f3ff;   /* Selected chip / radio tile */
+  --sw-bg-danger: #df0000;
+  --sw-bg-danger-hover: #b00000;
+  --sw-bg-avatar: #ccede8;
+
+  /* ---------- Semantic · Severity ---------- */
+  --sw-severity-low-bg: #f3fae6;      --sw-severity-low-fg: #456c01;      --sw-severity-low-solid: #72b202;
+  --sw-severity-info-bg: #eef4fa;     --sw-severity-info-fg: #2f6496;     --sw-severity-info-solid: #5792ca;
+  --sw-severity-moderate-bg: #fff8e6; --sw-severity-moderate-fg: #8a5b00; --sw-severity-moderate-solid: #ffb611;
+  --sw-severity-high-bg: #fff1ea;     --sw-severity-high-fg: #a63f05;     --sw-severity-high-solid: #ff681f;
+  --sw-severity-critical-bg: #ffeded; --sw-severity-critical-fg: #b00000; --sw-severity-critical-solid: #df0000;
+
+  /* ---------- Semantic · Text ---------- */
+  --sw-text-primary: #030712;
+  --sw-text-secondary: #374151;
+  --sw-text-tertiary: #656f7d;
+  --sw-text-disabled: #9ca3af;
+  --sw-text-inverse: #ffffff;
+  --sw-text-on-brand: #ffffff;
+  --sw-text-on-action: #ffffff;
+  --sw-text-on-solid: #030712;
+  --sw-text-on-nav: #ffffff;
+  --sw-text-on-nav-muted: #d1d5db;
+  --sw-text-link: #0a71ca;
+  --sw-text-action: #6d28d9;
+  --sw-text-accent: #a63f05;
+  --sw-text-danger: #b00000;
+  --sw-text-success: #456c01;
+
+  /* ---------- Semantic · Borders ---------- */
+  --sw-border-default: #e1e6ef;
+  --sw-border-strong: #858d99;
+  --sw-border-hover: #4b5563;
+  --sw-border-focus: #7c3aed;
+  --sw-border-action: #c4b5fd;
+  --sw-border-brand: #0d1b28;
+  --sw-border-danger: #df0000;
+  --sw-border-nav: #ffffff33;
+
+  /* ---------- Semantic · Icons ---------- */
+  --sw-icon-default: #374151;
+  --sw-icon-secondary: #656f7d;
+  --sw-icon-disabled: #9ca3af;
+  --sw-icon-action: #6d28d9;
+  --sw-icon-on-brand: #ffffff;
+  --sw-icon-on-action: #ffffff;
+  --sw-icon-on-nav: #ffffff;
+  --sw-icon-success: #72b202;
+  --sw-icon-danger: #df0000;
+
+  /* ---------- Effects & focus ---------- */
+  --sw-shadow-strong: #1018281a;
+  --sw-shadow-soft: #1018280f;
+  --sw-focus-ring: #7c3aed40;
+  --sw-elevation-1: 0 1px 2px 0 var(--sw-shadow-soft);              /* DS/Elevation/1 XS */
+  --sw-focus-ring-shadow: 0 0 0 3px var(--sw-focus-ring);            /* DS/Focus/Ring */
+
+  /* ---------- Spacing (4px scale) ---------- */
+  --sw-space-0: 0px;    --sw-space-50: 2px;   --sw-space-100: 4px;  --sw-space-150: 6px;
+  --sw-space-200: 8px;  --sw-space-250: 10px; --sw-space-300: 12px; --sw-space-400: 16px;
+  --sw-space-500: 20px; --sw-space-600: 24px; --sw-space-800: 32px; --sw-space-1000: 40px;
+  --sw-space-1200: 48px; --sw-space-1600: 64px; --sw-space-2000: 80px;
+
+  /* ---------- Radius ---------- */
+  --sw-radius-none: 0px; --sw-radius-xs: 2px; --sw-radius-sm: 4px; --sw-radius-md: 6px;
+  --sw-radius-lg: 8px;   --sw-radius-xl: 12px; --sw-radius-full: 999px;
+
+  /* ---------- Sizes (Comfortable density) ---------- */
+  --sw-size-control-sm: 28px;
+  --sw-size-control-md: 36px;
+  --sw-size-control-lg: 44px;
+  --sw-size-table-row: 48px;
+  --sw-size-nav-bar: 56px;
+  --sw-size-side-nav: 220px;
+  --sw-size-side-nav-collapsed: 62px;
+
+  /* ---------- Typography (Roboto) ---------- */
+  --sw-font-family: "Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sw-font-family-mono: "Roboto Mono", ui-monospace, monospace;
+  --sw-font-size-11: 11px; --sw-font-line-height-14: 14px;
+  --sw-font-size-12: 12px; --sw-font-line-height-16: 16px;
+  --sw-font-size-14: 14px; --sw-font-line-height-20: 20px;
+  --sw-font-size-16: 16px; --sw-font-line-height-24: 24px;
+  --sw-font-size-18: 18px; --sw-font-line-height-26: 26px;
+  --sw-font-size-24: 24px; --sw-font-line-height-32: 32px;
+  --sw-font-size-32: 32px; --sw-font-line-height-40: 40px;
+}
+
+/* ---------- Text styles (DS/…) ---------- */
+.ds-display        { font: 700 var(--sw-font-size-32)/var(--sw-font-line-height-40) var(--sw-font-family); letter-spacing: -1px; }
+.ds-h1             { font: 600 var(--sw-font-size-24)/var(--sw-font-line-height-32) var(--sw-font-family); }
+.ds-h2             { font: 500 var(--sw-font-size-18)/var(--sw-font-line-height-26) var(--sw-font-family); }
+.ds-h3             { font: 500 var(--sw-font-size-16)/var(--sw-font-line-height-24) var(--sw-font-family); }
+.ds-body-lg        { font: 400 var(--sw-font-size-16)/var(--sw-font-line-height-24) var(--sw-font-family); }
+.ds-body-md        { font: 400 var(--sw-font-size-14)/var(--sw-font-line-height-20) var(--sw-font-family); }
+.ds-body-md-strong { font: 500 var(--sw-font-size-14)/var(--sw-font-line-height-20) var(--sw-font-family); }
+.ds-body-sm        { font: 400 var(--sw-font-size-12)/var(--sw-font-line-height-16) var(--sw-font-family); }
+.ds-label-lg       { font: 500 var(--sw-font-size-16)/var(--sw-font-line-height-24) var(--sw-font-family); }
+.ds-label-md       { font: 500 var(--sw-font-size-14)/var(--sw-font-line-height-20) var(--sw-font-family); }
+.ds-label-sm       { font: 500 var(--sw-font-size-12)/var(--sw-font-line-height-16) var(--sw-font-family); }
+.ds-caption        { font: 400 var(--sw-font-size-11)/var(--sw-font-line-height-14) var(--sw-font-family); }
+.ds-code           { font: 400 var(--sw-font-size-12)/var(--sw-font-line-height-16) var(--sw-font-family-mono); }

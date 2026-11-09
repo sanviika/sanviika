@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cognizant · Subscriptions · Supply Wisdom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
+  <link rel="stylesheet" href="../assets/components.css">
+  <script src="../assets/icons.js"></script>
+  <script src="../assets/app.js" defer></script>
+  <style>
+    .subs-bar { display: flex; align-items: center; justify-content: space-between; gap: var(--sw-space-400); }
+  </style>
+</head>
+<body>
+<!-- Figma: Subscription (10012:43893) -->
+<div class="sw-app">
+  <!-- Organism · Nav Bar -->
+  <header class="sw-navbar">
+    <div class="sw-navbar__brand">
+      <button class="sw-navbar__menu" aria-label="Menu"><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-menu"></use></svg></button>
+      <a class="sw-logo" href="../index.html">
+        <span class="sw-logo__mark">S</span>
+        <span class="sw-logo__type">Supply<br>Wisdom</span>
+      </a>
+    </div>
+    <label class="sw-search-nav">
+      <svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input type="search" placeholder="Search" aria-label="Search">
+    </label>
+    <div class="sw-navbar__actions">
+      <button class="sw-navbar__action" aria-label="Theme"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-moon"></use></svg></button>
+      <button class="sw-navbar__action" aria-label="Notifications"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-bell"></use></svg><span class="sw-navbar__count">5</span></button>
+      <button class="sw-navbar__action" aria-label="Help"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-help-circle"></use></svg></button>
+      <span class="sw-navbar__divider"></span>
+      <button class="sw-navbar__user" aria-label="Account"><span class="sw-avatar">SK</span><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-chevron-down"></use></svg></button>
+    </div>
+  </header>
+
+  <!-- Organism · Side Navigation (collapsed) -->
+  <nav class="sw-sidenav" aria-label="Primary">
+    <a class="sw-nav-item" href="#" title="Home" aria-label="Home"><svg class="sw-icon" aria-hidden="true"><use href="#i-home"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Alerts" aria-label="Alerts"><svg class="sw-icon" aria-hidden="true"><use href="#i-alert-triangle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Cognitive Analysis" aria-label="Cognitive Analysis"><svg class="sw-icon" aria-hidden="true"><use href="#i-bulb"></use></svg></a>
+    <a class="sw-nav-item is-active" href="targets.html" title="Targets" aria-label="Targets" aria-current="page"><svg class="sw-icon" aria-hidden="true"><use href="#i-target"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Industry News" aria-label="Industry News"><svg class="sw-icon" aria-hidden="true"><use href="#i-megaphone"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Parameters" aria-label="Parameters"><svg class="sw-icon" aria-hidden="true"><use href="#i-chart-line"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Performance Metric" aria-label="Performance Metric"><svg class="sw-icon" aria-hidden="true"><use href="#i-thumbs-up"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Users" aria-label="Users"><svg class="sw-icon" aria-hidden="true"><use href="#i-user"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Target Allocation" aria-label="Target Allocation"><svg class="sw-icon" aria-hidden="true"><use href="#i-pin"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Resources" aria-label="Resources"><svg class="sw-icon" aria-hidden="true"><use href="#i-link"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Queries" aria-label="Queries"><svg class="sw-icon" aria-hidden="true"><use href="#i-help-circle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Manage Forms" aria-label="Manage Forms"><svg class="sw-icon" aria-hidden="true"><use href="#i-form"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Subscriptions" aria-label="Subscriptions"><svg class="sw-icon" aria-hidden="true"><use href="#i-monitor"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Subscription List" aria-label="Subscription List"><svg class="sw-icon" aria-hidden="true"><use href="#i-list"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Organisations" aria-label="Organisations"><svg class="sw-icon" aria-hidden="true"><use href="#i-building"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="File Repository" aria-label="File Repository"><svg class="sw-icon" aria-hidden="true"><use href="#i-folder"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Utilities" aria-label="Utilities"><svg class="sw-icon" aria-hidden="true"><use href="#i-printer"></use></svg></a>
+  </nav>
+
+  <main class="sw-main">
+    <!-- Organism · Page Header (Record) -->
+    <header class="sw-page-header">
+      <div class="sw-page-header__title-row">
+        <a class="sw-page-header__back" href="targets.html" aria-label="Back to Targets"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-arrow-left"></use></svg></a>
+        <h1 class="sw-page-header__title">Cognizant</h1>
+      </div>
+      <div class="sw-page-header__tabs-row">
+        <nav class="sw-segmented" aria-label="Target sections">
+          <a class="sw-segment" href="target-about.html">About</a>
+          <a class="sw-segment is-selected" href="target-subscriptions.html" aria-current="page">Subscriptions</a>
+          <a class="sw-segment" href="target-risk-metric.html">Risk Metric</a>
+          <a class="sw-segment" href="target-trend.html">Trend</a>
+          <a class="sw-segment" href="#">Review</a>
+        </nav>
+
+      </div>
+    </header>
+
+    <div class="subs-bar">
+      <div class="sw-segmented" data-segmented role="tablist" aria-label="Subscription state">
+        <button class="sw-segment is-selected" role="tab">Active Subscriptions : 12</button>
+        <button class="sw-segment" role="tab">Inactive Subscriptions : 5</button>
+      </div>
+      <div class="sw-review"><label class="sw-select" style="width:180px"><select aria-label="Assign Reviewer" required><option value="" disabled selected hidden>Assign Reviewer</option><option>Akshay KB</option><option>Lavanya N</option><option>Rahul Barnes</option><option>Saanya Kaushik</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label><button class="sw-btn sw-btn--secondary" disabled>Send</button></div>
+    </div>
+
+    <div class="sw-chip-group" data-chip-group role="group" aria-label="Subscription type">
+      <button class="sw-chip is-selected">All</button>
+      <button class="sw-chip">Primary</button>
+      <button class="sw-chip">Subsidiary</button>
+    </div>
+
+    <div class="sw-table-wrap">
+    <table class="sw-table">
+      <thead>
+        <tr>
+          <th style="text-align:left"><label class="sw-checkbox"><input type="checkbox" data-select-all aria-label="Select all"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-label-md">Organisation</span></label></th>
+          <th>Primary Targets</th><th>Status</th><th>Tier</th><th>Start Date</th><th>End Date</th><th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label class="sw-checkbox"><input type="checkbox"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-body-md">Verizon</span></label></td>
+          <td>--</td><td class="is-center">Primary</td><td class="is-wrap">Critical Tier</td><td class="is-center">1-Jan-24</td><td class="is-center">26-May-25</td>
+          <td><div class="sw-table__actions">
+            <button class="sw-icon-btn" aria-label="Edit subscription"><svg class="sw-icon" aria-hidden="true"><use href="#i-edit"></use></svg></button>
+            <button class="sw-icon-btn" aria-label="Subscription history"><svg class="sw-icon" aria-hidden="true"><use href="#i-history"></use></svg></button>
+          </div></td>
+        </tr>
+        <tr>
+          <td><label class="sw-checkbox"><input type="checkbox"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-body-md">HSBC</span></label></td>
+          <td>Broadcom, Inc.</td><td class="is-center">Subsidiary</td><td class="is-wrap">Critical Tier</td><td class="is-center">1-Jan-24</td><td class="is-center">12-Jun-25</td>
+          <td><div class="sw-table__actions">
+            <button class="sw-icon-btn" aria-label="Edit subscription"><svg class="sw-icon" aria-hidden="true"><use href="#i-edit"></use></svg></button>
+            <button class="sw-icon-btn" aria-label="Subscription history"><svg class="sw-icon" aria-hidden="true"><use href="#i-history"></use></svg></button>
+          </div></td>
+        </tr>
+        <tr>
+          <td><label class="sw-checkbox"><input type="checkbox"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-body-md">Supply Wisdom</span></label></td>
+          <td>--</td><td class="is-center">Primary</td><td class="is-wrap">Critical Tier with Nth Party and Location Tagging</td><td class="is-center">1-Jan-24</td><td class="is-center">30-Jun-26</td>
+          <td><div class="sw-table__actions">
+            <button class="sw-icon-btn" aria-label="Edit subscription"><svg class="sw-icon" aria-hidden="true"><use href="#i-edit"></use></svg></button>
+            <button class="sw-icon-btn" aria-label="Subscription history"><svg class="sw-icon" aria-hidden="true"><use href="#i-history"></use></svg></button>
+          </div></td>
+        </tr>
+        <tr>
+          <td><label class="sw-checkbox"><input type="checkbox"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-body-md">Voya Financial, Inc.</span></label></td>
+          <td>--</td><td class="is-center">Primary</td><td class="is-wrap">High Tier (Ops, Comp, ESG)</td><td class="is-center">4-Dec-23</td><td class="is-center">26-May-25</td>
+          <td><div class="sw-table__actions">
+            <button class="sw-icon-btn" aria-label="Edit subscription"><svg class="sw-icon" aria-hidden="true"><use href="#i-edit"></use></svg></button>
+            <button class="sw-icon-btn" aria-label="Subscription history"><svg class="sw-icon" aria-hidden="true"><use href="#i-history"></use></svg></button>
+          </div></td>
+        </tr>
+        <tr>
+          <td><label class="sw-checkbox"><input type="checkbox"><span class="sw-checkbox__box"><svg class="sw-icon" aria-hidden="true"><use href="#i-check"></use></svg></span><span class="ds-body-md">Permanent TSB</span></label></td>
+          <td>--</td><td class="is-center">Subsidiary</td><td class="is-wrap">Critical Tier</td><td class="is-center">1-Jan-24</td><td class="is-center">26-May-25</td>
+          <td><div class="sw-table__actions">
+            <button class="sw-icon-btn" aria-label="Edit subscription"><svg class="sw-icon" aria-hidden="true"><use href="#i-edit"></use></svg></button>
+            <button class="sw-icon-btn" aria-label="Subscription history"><svg class="sw-icon" aria-hidden="true"><use href="#i-history"></use></svg></button>
+          </div></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyber Score · Supply Wisdom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
+  <link rel="stylesheet" href="../assets/components.css">
+  <script src="../assets/icons.js"></script>
+  <script src="../assets/app.js" defer></script>
+</head>
+<body>
+<!-- Figma: Cyber Score (10012:42457) -->
+<div class="sw-app">
+  <!-- Organism · Nav Bar -->
+  <header class="sw-navbar">
+    <div class="sw-navbar__brand">
+      <button class="sw-navbar__menu" aria-label="Menu"><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-menu"></use></svg></button>
+      <a class="sw-logo" href="../index.html">
+        <span class="sw-logo__mark">S</span>
+        <span class="sw-logo__type">Supply<br>Wisdom</span>
+      </a>
+    </div>
+    <label class="sw-search-nav">
+      <svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input type="search" placeholder="Search" aria-label="Search">
+    </label>
+    <div class="sw-navbar__actions">
+      <button class="sw-navbar__action" aria-label="Theme"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-moon"></use></svg></button>
+      <button class="sw-navbar__action" aria-label="Notifications"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-bell"></use></svg><span class="sw-navbar__count">5</span></button>
+      <button class="sw-navbar__action" aria-label="Help"><svg class="sw-icon" style="--size:22px" aria-hidden="true"><use href="#i-help-circle"></use></svg></button>
+      <span class="sw-navbar__divider"></span>
+      <button class="sw-navbar__user" aria-label="Account"><span class="sw-avatar">SK</span><svg class="sw-icon" style="--size:20px" aria-hidden="true"><use href="#i-chevron-down"></use></svg></button>
+    </div>
+  </header>
+
+  <!-- Organism · Side Navigation (collapsed) -->
+  <nav class="sw-sidenav" aria-label="Primary">
+    <a class="sw-nav-item" href="#" title="Home" aria-label="Home"><svg class="sw-icon" aria-hidden="true"><use href="#i-home"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Alerts" aria-label="Alerts"><svg class="sw-icon" aria-hidden="true"><use href="#i-alert-triangle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Cognitive Analysis" aria-label="Cognitive Analysis"><svg class="sw-icon" aria-hidden="true"><use href="#i-bulb"></use></svg></a>
+    <a class="sw-nav-item is-active" href="targets.html" title="Targets" aria-label="Targets" aria-current="page"><svg class="sw-icon" aria-hidden="true"><use href="#i-target"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Industry News" aria-label="Industry News"><svg class="sw-icon" aria-hidden="true"><use href="#i-megaphone"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Parameters" aria-label="Parameters"><svg class="sw-icon" aria-hidden="true"><use href="#i-chart-line"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Performance Metric" aria-label="Performance Metric"><svg class="sw-icon" aria-hidden="true"><use href="#i-thumbs-up"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Users" aria-label="Users"><svg class="sw-icon" aria-hidden="true"><use href="#i-user"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Target Allocation" aria-label="Target Allocation"><svg class="sw-icon" aria-hidden="true"><use href="#i-pin"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Resources" aria-label="Resources"><svg class="sw-icon" aria-hidden="true"><use href="#i-link"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Queries" aria-label="Queries"><svg class="sw-icon" aria-hidden="true"><use href="#i-help-circle"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Manage Forms" aria-label="Manage Forms"><svg class="sw-icon" aria-hidden="true"><use href="#i-form"></use></svg></a>
+    <span class="sw-sidenav__divider"></span>
+    <a class="sw-nav-item" href="#" title="Subscriptions" aria-label="Subscriptions"><svg class="sw-icon" aria-hidden="true"><use href="#i-monitor"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Subscription List" aria-label="Subscription List"><svg class="sw-icon" aria-hidden="true"><use href="#i-list"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Organisations" aria-label="Organisations"><svg class="sw-icon" aria-hidden="true"><use href="#i-building"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="File Repository" aria-label="File Repository"><svg class="sw-icon" aria-hidden="true"><use href="#i-folder"></use></svg></a>
+    <a class="sw-nav-item" href="#" title="Utilities" aria-label="Utilities"><svg class="sw-icon" aria-hidden="true"><use href="#i-printer"></use></svg></a>
+  </nav>
+
+  <main class="sw-main">
+    <header class="sw-page-header">
+      <div class="sw-page-header__title-row"><h1 class="sw-page-header__title">Targets</h1></div>
+    </header>
+
+    <div class="sw-filter-bar">
+      <div class="sw-filter-bar__group">
+        <nav class="sw-segmented" aria-label="Targets view">
+          <a class="sw-segment" href="targets.html">Targets</a>
+          <a class="sw-segment is-selected" href="cyber-score.html" aria-current="page">Cyber Score</a>
+        </nav>
+        <label class="sw-select" style="width:220px"><select aria-label="Select Target" required><option value="" disabled selected hidden>Select Target</option><option>Afghanistan</option><option>AI24</option><option>Bangalore</option><option>Cognizant</option><option>Infosys</option><option>TCS</option></select><svg class="sw-icon" aria-hidden="true"><use href="#i-chevron-down"></use></svg></label>
+        <button class="sw-icon-btn" disabled aria-label="Apply search"><svg class="sw-icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+      </div>
+    </div>
+
+    <p class="sw-empty">Please select a Target to see it’s cyber score</p>
+  </main>
+</div>
+</body>
+</html>
